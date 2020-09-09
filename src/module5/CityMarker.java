@@ -13,7 +13,7 @@ import processing.core.PGraphics;
  * @author Your name here
  *
  */
-// TODO: Change SimplePointMarker to CommonMarker as the very first thing you do 
+// TODO: Change SimplePointMarker to CommonMarker as the very first thing you do. done.
 // in module 5 (i.e. CityMarker extends CommonMarker).  It will cause an error.
 // That's what's expected.
 public class CityMarker extends CommonMarker {
@@ -50,12 +50,13 @@ public class CityMarker extends CommonMarker {
 	/** Show the title of the city if this marker is selected */
 	public void showTitle(PGraphics pg, float x, float y)
 	{
+		// CODE ADDED BY STUDENT
 		String str = getCity()+", "+getCountry()+"; pop: "+getPopulation();
 		pg.fill(252, 234, 118);
 		pg.rect(x, y, (float)(6.5)*str.length(), -12);
 		pg.fill(0);
 		pg.text(str, x, y);
-		// TODO: Implement this method
+		// TODO: Implement this method. done.
 	}
 	
 	

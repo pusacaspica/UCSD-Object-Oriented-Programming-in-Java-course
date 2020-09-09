@@ -145,7 +145,7 @@ public class EarthquakeCityMap extends PApplet {
 		}
 	}
 	// TODO: Add the method:
-	//   private void sortAndPrint(int numToPrint)
+	//   private void sortAndPrint(int numToPrint). done.
 	// and then call that method from setUp
 	
 	/** Event handler that gets called automatically when the 

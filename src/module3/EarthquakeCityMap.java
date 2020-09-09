@@ -84,7 +84,7 @@ public class EarthquakeCityMap extends PApplet {
 	    //TODO (Step 3): Add a loop here that calls createMarker (see below) 
 	    // to create a new SimplePointMarker for each PointFeature in 
 	    // earthquakes.  Then add each new SimplePointMarker to the 
-	    // List markers (so that it will be added to the map in the line below)
+	    // List markers (so that it will be added to the map in the line below). Done.
 	    
 	    
 	    // Add the markers to the map so that they are displayed
@@ -97,7 +97,7 @@ public class EarthquakeCityMap extends PApplet {
 	 * In step 3 You can use this method as-is.  Call it from a loop in the 
 	 * setp method.  
 	 * 
-	 * TODO (Step 4): Add code to this method so that it adds the proper 
+	 * TODO (Step 4): Add code to this method so that it adds the proper. Done.
 	 * styling to each marker based on the magnitude of the earthquake.  
 	*/
 
@@ -137,7 +137,7 @@ public class EarthquakeCityMap extends PApplet {
 			marker.setStrokeColor(redStroke);
 			marker.setRadius(9f);
 		}
-		// TODO (Step 4): Add code below to style the marker's size and color 
+		// TODO (Step 4): Add code below to style the marker's size and color. Done.
 	    // according to the magnitude of the earthquake.  
 	    // Don't forget about the constants THRESHOLD_MODERATE and 
 	    // THRESHOLD_LIGHT, which are declared above.
@@ -158,7 +158,7 @@ public class EarthquakeCityMap extends PApplet {
 
 
 	// helper method to draw key in GUI
-	// TODO: Implement this method to draw the key
+	// TODO: Implement this method to draw the key. Done.
 	private void addKey() 
 	{
 		int green = color(0, 255, 0);

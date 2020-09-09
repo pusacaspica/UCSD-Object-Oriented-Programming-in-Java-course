@@ -135,7 +135,7 @@ public class EarthquakeCityMap extends PApplet {
 	}
 	
 	// helper method to draw key in GUI
-	// TODO: Update this method as appropriate
+	// TODO: Update this method as appropriate. done.
 	private void addKey() {	
 		// Remember you can use Processing's graphics methods here
 		fill(255, 250, 240);
@@ -180,7 +180,7 @@ public class EarthquakeCityMap extends PApplet {
 			if(isInCountry(earthquake, m)){
 				return true;
 			}
-			// TODO: Finish this method using the helper method isInCountry
+			// TODO: Finish this method using the helper method isInCountry. done.
 		}
 		// not inside any country
 		return false;
@@ -194,8 +194,9 @@ public class EarthquakeCityMap extends PApplet {
 	 * */
 	private void printQuakes() 
 	{
+		int oceanQuakes = 0;
 		for (Marker cm: countryMarkers) {
-			int oceanQuakes = 0;
+			oceanQuakes = 0;
 			int quakeCounter = 0;
 			String cn = (String) cm.getProperty("name");
 			for(Marker qm: quakeMarkers) {
@@ -210,9 +211,9 @@ public class EarthquakeCityMap extends PApplet {
 				}
 			}
 			if(quakeCounter > 0) println(cn+" had "+quakeCounter+" earthquakes");
-			println("There was "+oceanQuakes+" earthquakes in the ocean");
 		}
-		// TODO: Implement this method
+		println("There was "+oceanQuakes+" earthquakes in the ocean");
+		// TODO: Implement this method. done.
 		// One (inefficient but correct) approach is to:
 		//   Loop over all of the countries, e.g. using 
 		//        for (Marker cm : countryMarkers) { ... }

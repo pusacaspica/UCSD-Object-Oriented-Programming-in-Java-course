@@ -77,7 +77,7 @@ public class HelloWorld extends PApplet
 		MapUtils.createDefaultEventDispatcher(this, map1);
 		MapUtils.createDefaultEventDispatcher(this, map2);
 		
-		// TODO: Add code here that creates map2 
+		// TODO: Add code here that creates map2. Done.
 		// Then you'll modify draw() below
 
 	}
@@ -85,7 +85,7 @@ public class HelloWorld extends PApplet
 	/** Draw the Applet window.  */
 	public void draw() {
 		// So far we only draw map1...
-		// TODO: Add code so that both maps are displayed
+		// TODO: Add code so that both maps are displayed. Done.
 		map1.draw();
 		map2.draw();
 	}

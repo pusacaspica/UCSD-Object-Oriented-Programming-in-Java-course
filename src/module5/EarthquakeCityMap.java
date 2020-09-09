@@ -145,7 +145,7 @@ public class EarthquakeCityMap extends PApplet {
 	// 
 	private void selectMarkerIfHover(List<Marker> markers)
 	{
-		// TODO: Implement this method
+		// TODO: Implement this method. done.
 		if(!(lastSelected == null)) return;
 		for(Marker marker: markers){
 			if(marker.isInside(map, mouseX, mouseY)){
@@ -181,7 +181,7 @@ public class EarthquakeCityMap extends PApplet {
 				}
 			}
 		}
-		// TODO: Implement this method
+		// TODO: Implement this method. done.
 		// Hint: You probably want a helper method or two to keep this code
 		// from getting too long/disorganized
 	}

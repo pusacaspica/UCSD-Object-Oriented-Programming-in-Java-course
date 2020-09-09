@@ -73,7 +73,7 @@ public abstract class EarthquakeMarker extends SimplePointMarker
 			pg.stroke(0);
 			pg.line(x-5, y-5, x+5, y+5);
 		}
-		// OPTIONAL TODO: draw X over marker if within past day		
+		// OPTIONAL TODO: draw X over marker if within past day
 		
 		// reset to previous styling
 		pg.popStyle();
@@ -89,7 +89,7 @@ public abstract class EarthquakeMarker extends SimplePointMarker
 		if(getDepth() >= THRESHOLD_DEEP) pg.fill(255, 0, 0);
 		else if(getDepth() >= THRESHOLD_INTERMEDIATE) pg.fill(255, 135, 0);
 		else pg.fill(255, 255, 0);
-		//TODO: Implement this method
+		//TODO: Implement this method. Done.
 	}
 	
 	
